@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Montserrat } from "next/font/google";
 import "./globals.css";
 
@@ -8,23 +8,38 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "Hi-Fly — Tours & Flights",
+  title: "HiFLY — Your next great escape",
   description: "Discover curated tours and compare flights with Hi-Fly.",
   openGraph: {
-    title: "Hi-Fly — Tours & Flights",
-    description: "One beautiful journey. Curated tours and smarter flight search.",
-    images: [{ url: "/og.png", width: 1200, height: 630, alt: "Hi-Fly Tours & Flights" }],
+    title: "HiFLY — Your next great escape",
+    description:
+      "One beautiful journey. Curated tours and smarter flight search.",
+    images: [
+      {
+        url: "/hifly-logo.png",
+        width: 900,
+        height: 780,
+        alt: "HiFLY Tours & Flights",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Hi-Fly — Tours & Flights",
-    description: "One beautiful journey. Curated tours and smarter flight search.",
-    images: ["/og.png"],
+    title: "HiFLY — Your next great escape",
+    description:
+      "One beautiful journey. Curated tours and smarter flight search.",
+    images: ["/hifly-logo.png"],
   },
   icons: {
-    icon: "/favicon.svg",
-    shortcut: "/favicon.svg",
+    icon: "/hifly-logo.png",
+    shortcut: "/hifly-logo.png",
   },
+};
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  themeColor: "#064bce",
 };
 
 export default function RootLayout({
@@ -34,11 +49,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${montserrat.variable} antialiased`}
-      >
-        {children}
-      </body>
+      <body className={`${montserrat.variable} antialiased`}>{children}</body>
     </html>
   );
 }
