@@ -6,7 +6,7 @@
   --navy: #092853;
   --yellow: #ffe31a;
   --ink: #152e50;
-  --muted: #64748a;
+  --muted: #53657d;
   --line: #e2e8f0;
   --pale: #f1f6fe;
   --white: #fff;
@@ -24,7 +24,8 @@ body {
   color: var(--ink);
   background: #fff;
   font-family: var(--font-montserrat), Arial, sans-serif;
-  font-size: 14px;
+  font-size: 16px;
+  font-weight: 500;
   -webkit-font-smoothing: antialiased;
 }
 button,
@@ -90,7 +91,7 @@ p {
 h1,
 h2 {
   letter-spacing: -0.055em;
-  font-weight: 600;
+  font-weight: 650;
 }
 h1 em,
 h2 em {
@@ -141,7 +142,7 @@ p {
   gap: 11px;
   border: 1px solid transparent;
   border-radius: 9px;
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 700;
   line-height: 1.4;
   text-decoration: none;
@@ -199,7 +200,7 @@ p {
   display: inline-flex;
   align-items: center;
   gap: 12px;
-  font-size: 12px;
+  font-size: 15px;
   color: var(--blue);
   font-weight: 700;
 }
@@ -211,7 +212,7 @@ p {
   display: inline-flex;
   align-items: center;
   gap: 9px;
-  font-size: 9px;
+  font-size: 12px;
   font-weight: 700;
   letter-spacing: 0.16em;
   line-height: 1.6;
@@ -234,7 +235,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 9px;
+  font-size: 12px;
   letter-spacing: 0.02em;
 }
 .announcement > span {
@@ -244,7 +245,7 @@ p {
 }
 .demo-tag {
   color: #e4edff;
-  font-size: 8px;
+  font-size: 11px;
   letter-spacing: 0.12em;
 }
 .demo-tag i,
@@ -295,9 +296,9 @@ p {
 .brand small {
   display: block;
   margin-top: 6px;
-  font-size: 6.3px;
+  font-size: 11px;
   letter-spacing: 0.19em;
-  font-weight: 600;
+  font-weight: 650;
 }
 .brand > svg {
   color: var(--blue);
@@ -321,8 +322,8 @@ p {
   border: 0;
   position: relative;
   padding: 0;
-  font-size: 12px;
-  font-weight: 500;
+  font-size: 15px;
+  font-weight: 600;
   color: #5e6c80;
 }
 .main-nav button.active,
@@ -348,8 +349,8 @@ p {
   align-items: center;
 }
 .locale {
-  font-size: 10px;
-  font-weight: 600;
+  font-size: 13px;
+  font-weight: 650;
   white-space: nowrap;
 }
 .locale > span {
@@ -376,7 +377,7 @@ p {
   height: 16px;
   display: grid;
   place-items: center;
-  font-size: 9px;
+  font-size: 12px;
   font-weight: 700;
 }
 .menu-toggle {
@@ -424,7 +425,7 @@ p {
 }
 .hero p {
   color: #eff4ff;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.8;
   margin-bottom: 15px;
 }
@@ -436,8 +437,8 @@ p {
   border: 0;
   border-bottom: 1px solid #ffffff70;
   padding: 8px 0 10px;
-  font-size: 11px;
-  font-weight: 600;
+  font-size: 14px;
+  font-weight: 650;
 }
 .hero-link:hover {
   color: var(--yellow);
@@ -455,11 +456,11 @@ p {
   gap: 5px;
 }
 .hero-proof small {
-  font-size: 9px;
+  font-size: 12px;
   color: #edf2ff;
 }
 .stars {
-  font-size: 11px;
+  font-size: 14px;
   color: var(--yellow);
   letter-spacing: 2px;
 }
@@ -475,7 +476,7 @@ p {
   background: #dfd0b9;
   color: #5c4c3b;
   font-family: Georgia, serif;
-  font-size: 12px;
+  font-size: 15px;
   font-style: normal;
   display: grid;
   place-items: center;
@@ -510,17 +511,17 @@ p {
   gap: 7px;
 }
 .destination-note small {
-  font-size: 6.7px;
+  font-size: 11px;
   letter-spacing: 0.13em;
   color: #f0f4ff;
 }
 .destination-note b {
-  font-size: 12px;
-  font-weight: 600;
+  font-size: 15px;
+  font-weight: 650;
 }
 .destination-note .note-number {
   margin-left: 30px;
-  font-size: 8px;
+  font-size: 11px;
   color: #dde8ff;
 }
 .floating-search {
@@ -554,8 +555,8 @@ p {
   align-items: center;
   border: 0;
   background: transparent;
-  font-size: 11px;
-  font-weight: 600;
+  font-size: 14px;
+  font-weight: 650;
   border-radius: 7px;
   padding: 10px 13px;
   color: var(--muted);
@@ -568,7 +569,7 @@ p {
   display: flex;
   gap: 7px;
   align-items: center;
-  font-size: 8px;
+  font-size: 11px;
   color: var(--muted);
 }
 .search-fields {
@@ -605,10 +606,10 @@ p {
 }
 .field-label {
   display: block;
-  font-size: 9px;
+  font-size: 12px;
   color: #738198;
   margin-bottom: 7px;
-  font-weight: 500;
+  font-weight: 600;
 }
 .search-field input {
   padding: 0;
@@ -618,16 +619,16 @@ p {
   min-width: 0;
   outline-offset: 4px;
   color: var(--ink);
-  font-size: 11px;
-  font-weight: 600;
+  font-size: 14px;
+  font-weight: 650;
   border-radius: 2px;
 }
 .search-field input::placeholder {
   color: #66758c;
-  font-weight: 500;
+  font-weight: 600;
 }
 .search-field input[type="date"] {
-  font-size: 11px;
+  font-size: 14px;
   min-height: 18px;
   color-scheme: light;
 }
@@ -646,12 +647,12 @@ p {
   border: 0;
   padding: 0;
   text-align: left;
-  font-size: 11px;
-  font-weight: 600;
+  font-size: 14px;
+  font-weight: 650;
   white-space: nowrap;
 }
 .guest-sub {
-  font-size: 8px;
+  font-size: 11px;
   font-weight: 400;
   color: var(--muted);
   margin-left: 7px;
@@ -680,7 +681,7 @@ p {
   min-height: 32px;
 }
 .popover-head > span {
-  font-size: 8px;
+  font-size: 11px;
   font-weight: 700;
   letter-spacing: 0.12em;
   color: var(--muted);
@@ -710,10 +711,10 @@ p {
   gap: 5px;
 }
 .place-option b {
-  font-size: 11px;
+  font-size: 14px;
 }
 .place-option small {
-  font-size: 8px;
+  font-size: 11px;
   color: var(--muted);
 }
 .place-icon {
@@ -727,11 +728,11 @@ p {
 }
 .destination-popover > .text-button {
   margin-left: 8px;
-  font-size: 10px;
+  font-size: 13px;
 }
 .popover-empty {
   padding: 15px 8px;
-  font-size: 12px;
+  font-size: 15px;
 }
 .guest-popover {
   right: 0;
@@ -751,10 +752,10 @@ p {
   gap: 6px;
 }
 .guest-row b {
-  font-size: 12px;
+  font-size: 15px;
 }
 .guest-row small {
-  font-size: 9px;
+  font-size: 12px;
   color: var(--muted);
 }
 .guest-row > div {
@@ -779,7 +780,7 @@ p {
 }
 .form-error {
   color: #b12030;
-  font-size: 11px;
+  font-size: 14px;
   padding: 10px 12px;
   border-radius: 7px;
   background: #fff1f2;
@@ -796,7 +797,7 @@ p {
   align-items: center;
   gap: 8px;
   color: #6c7c91;
-  font-size: 9px;
+  font-size: 12px;
 }
 .trust-strip > span > svg {
   color: var(--blue);
@@ -821,7 +822,7 @@ p {
   color: var(--blue);
 }
 .section-heading p {
-  font-size: 12px;
+  font-size: 15px;
   margin: 0;
 }
 .section-heading > .text-button {
@@ -829,7 +830,7 @@ p {
   white-space: nowrap;
 }
 .section-aside {
-  font-size: 11px;
+  font-size: 14px;
   color: var(--muted);
   margin-bottom: 13px;
 }
@@ -892,7 +893,7 @@ p {
   border-radius: 5px;
   background: var(--yellow);
   color: var(--navy);
-  font-size: 8px;
+  font-size: 11px;
   padding: 7px 9px;
   font-weight: 700;
   pointer-events: none;
@@ -926,7 +927,7 @@ p {
   left: 18px;
   bottom: 17px;
   color: #fff;
-  font-size: 9px;
+  font-size: 12px;
   display: flex;
   gap: 5px;
   align-items: center;
@@ -940,7 +941,7 @@ p {
   justify-content: space-between;
   align-items: center;
   gap: 8px;
-  font-size: 9px;
+  font-size: 12px;
   color: #6b7a8e;
 }
 .tour-meta > span:first-child {
@@ -960,7 +961,7 @@ p {
   gap: 5px;
   align-items: center;
   color: var(--ink);
-  font-size: 11px;
+  font-size: 14px;
 }
 .rating > svg {
   fill: #e9ac0b;
@@ -968,7 +969,7 @@ p {
 }
 .tour-body h3 {
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 650;
   line-height: 1.5;
   margin: 12px 0 10px;
   letter-spacing: -0.035em;
@@ -989,7 +990,7 @@ p {
   align-items: center;
   gap: 5px;
   color: #56705f;
-  font-size: 8px;
+  font-size: 11px;
   margin-bottom: 19px;
 }
 .tour-bottom {
@@ -1006,7 +1007,7 @@ p {
 }
 .tour-bottom small {
   color: var(--muted);
-  font-size: 9px;
+  font-size: 12px;
 }
 .tour-bottom strong {
   color: var(--blue);
@@ -1069,7 +1070,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 10px;
+  font-size: 13px;
 }
 .destination-top > svg {
   transform: rotate(-35deg);
@@ -1085,8 +1086,8 @@ p {
 }
 .destination-copy > small {
   color: var(--yellow);
-  font-size: 8px;
-  font-weight: 600;
+  font-size: 11px;
+  font-weight: 650;
   letter-spacing: 0.09em;
   text-transform: uppercase;
 }
@@ -1095,10 +1096,10 @@ p {
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: -0.045em;
-  font-weight: 600;
+  font-weight: 650;
 }
 .destination-copy > span {
-  font-size: 9px;
+  font-size: 12px;
   color: #dee8f5;
 }
 .flight-promo {
@@ -1129,7 +1130,7 @@ p {
 }
 .flight-promo p {
   color: #d8e7ff;
-  font-size: 11px;
+  font-size: 14px;
   max-width: 350px;
   margin-bottom: 23px;
 }
@@ -1177,9 +1178,9 @@ p {
   display: none;
 }
 .pass-top > span:last-child {
-  font-size: 6px;
+  font-size: 11px;
   letter-spacing: 0.1em;
-  font-weight: 600;
+  font-weight: 650;
   color: var(--muted);
 }
 .pass-route {
@@ -1199,10 +1200,10 @@ p {
 .pass-route b {
   font-size: 43px;
   letter-spacing: -0.04em;
-  font-weight: 600;
+  font-weight: 650;
 }
 .pass-route small {
-  font-size: 9px;
+  font-size: 12px;
   color: var(--muted);
 }
 .pass-route > span {
@@ -1227,12 +1228,12 @@ p {
   gap: 7px;
 }
 .pass-bottom small {
-  font-size: 6px;
+  font-size: 11px;
   letter-spacing: 0.1em;
   color: var(--muted);
 }
 .pass-bottom b {
-  font-size: 9px;
+  font-size: 12px;
 }
 .pass-stub {
   border-top: 1px dashed #aebfda;
@@ -1258,9 +1259,9 @@ p {
   right: -9px;
 }
 .pass-stub > span:first-child {
-  font-size: 7px;
+  font-size: 11px;
   letter-spacing: 0.1em;
-  font-weight: 600;
+  font-weight: 650;
 }
 .barcode {
   width: 75px;
@@ -1301,13 +1302,13 @@ p {
   top: -3px;
 }
 .benefits h3 {
-  font-size: 13px;
-  font-weight: 600;
+  font-size: 16px;
+  font-weight: 650;
   letter-spacing: -0.02em;
   margin-bottom: 11px;
 }
 .benefits p {
-  font-size: 11px;
+  font-size: 14px;
   margin-bottom: 0;
 }
 .site-footer {
@@ -1327,7 +1328,7 @@ p {
   margin: 13px 0 10px;
 }
 .footer-top p {
-  font-size: 10px;
+  font-size: 13px;
   color: #d2def5;
   margin: 0;
 }
@@ -1344,7 +1345,7 @@ p {
   min-width: 0;
   color: white;
   padding: 10px 13px;
-  font-size: 11px;
+  font-size: 14px;
   background: none;
   border: 0;
 }
@@ -1365,7 +1366,7 @@ p {
   position: absolute;
   top: calc(100% + 8px);
   left: 0;
-  font-size: 9px;
+  font-size: 12px;
   color: #f6e98e;
 }
 .footer-main {
@@ -1375,8 +1376,8 @@ p {
   padding-block: 50px;
 }
 .footer-main h3 {
-  font-size: 11px;
-  font-weight: 600;
+  font-size: 14px;
+  font-weight: 650;
   margin: 0 0 21px;
 }
 .footer-main > div > button:not(.logo-button) {
@@ -1384,7 +1385,7 @@ p {
   border: 0;
   background: none;
   padding: 7px 0;
-  font-size: 10px;
+  font-size: 13px;
   color: #d5e0f5;
 }
 .footer-main button:hover:not(.logo-button) {
@@ -1392,7 +1393,7 @@ p {
 }
 .footer-main p {
   color: #d5e0f5;
-  font-size: 10px;
+  font-size: 13px;
 }
 .footer-brand p {
   margin: 19px 0 18px;
@@ -1401,14 +1402,14 @@ p {
   display: flex;
   align-items: center;
   gap: 7px;
-  font-size: 7px;
+  font-size: 11px;
   color: #cbdbf8;
 }
 .footer-last > span {
   display: flex;
   align-items: center;
   gap: 8px;
-  font-size: 8px;
+  font-size: 11px;
   letter-spacing: 0.07em;
   margin-top: 22px;
 }
@@ -1424,11 +1425,11 @@ p {
   justify-content: space-between;
   align-items: center;
   padding-block: 22px;
-  font-size: 8px;
+  font-size: 11px;
   color: #c6d7f6;
 }
 .footer-bottom button {
-  font-size: 8px;
+  font-size: 11px;
   background: transparent;
   color: #c6d7f6;
   border: 0;
@@ -1467,7 +1468,7 @@ p {
   color: var(--blue);
 }
 .browse-hero p {
-  font-size: 12px;
+  font-size: 15px;
   margin-bottom: 27px;
 }
 .search-compact {
@@ -1503,11 +1504,11 @@ p {
   display: flex;
   align-items: center;
   gap: 8px;
-  font-size: 10px;
-  font-weight: 600;
+  font-size: 13px;
+  font-weight: 650;
 }
 .filter-heading .text-button {
-  font-size: 9px;
+  font-size: 12px;
 }
 .filter-group {
   padding: 22px 0;
@@ -1516,8 +1517,8 @@ p {
 .filter-group > b,
 .filter-group > label:not(.check-label) {
   display: block;
-  font-size: 10px;
-  font-weight: 600;
+  font-size: 13px;
+  font-weight: 650;
   margin-bottom: 17px;
 }
 .filter-group > label > b {
@@ -1534,14 +1535,14 @@ p {
   display: flex;
   justify-content: space-between;
   color: #7d8a9c;
-  font-size: 9px;
+  font-size: 12px;
   margin-top: 10px;
 }
 .check-label {
   display: flex;
   align-items: center;
   gap: 9px;
-  font-size: 10px;
+  font-size: 13px;
   color: #5b6c83;
   margin: 13px 0;
   cursor: pointer;
@@ -1564,14 +1565,14 @@ p {
   margin-bottom: 12px;
 }
 .filter-note b {
-  font-size: 10px;
+  font-size: 13px;
 }
 .filter-note p {
   margin: 8px 0 0;
-  font-size: 9px;
+  font-size: 12px;
 }
 .filter-help {
-  font-size: 9px;
+  font-size: 12px;
   margin: 18px 0 0;
 }
 .mobile-filter {
@@ -1594,7 +1595,7 @@ p {
   margin-bottom: 8px;
 }
 .results-heading p {
-  font-size: 9px;
+  font-size: 12px;
   margin: 0;
 }
 .sort-label {
@@ -1604,7 +1605,7 @@ p {
 }
 .sort-label > span {
   color: var(--muted);
-  font-size: 9px;
+  font-size: 12px;
   white-space: nowrap;
 }
 .sort-label select {
@@ -1612,7 +1613,7 @@ p {
   border-radius: 7px;
   padding: 10px 8px;
   color: #435871;
-  font-size: 10px;
+  font-size: 13px;
   background: #fff;
   max-width: 165px;
 }
@@ -1632,7 +1633,7 @@ p {
   color: var(--blue);
   border-radius: 30px;
   padding: 8px 12px;
-  font-size: 10px;
+  font-size: 13px;
 }
 .empty-state {
   padding: 55px 25px;
@@ -1653,12 +1654,12 @@ p {
 }
 .empty-state h3 {
   font-size: 19px;
-  font-weight: 600;
+  font-weight: 650;
   letter-spacing: -0.035em;
   margin-bottom: 12px;
 }
 .empty-state p {
-  font-size: 12px;
+  font-size: 15px;
   margin-bottom: 22px;
 }
 .flight-notice {
@@ -1670,7 +1671,7 @@ p {
   background: #f1f6fe;
   color: #5a7190;
   margin-bottom: 23px;
-  font-size: 9px;
+  font-size: 12px;
   line-height: 1.8;
 }
 .flight-notice svg {
@@ -1698,9 +1699,9 @@ p {
   padding: 9px 22px;
   background: #edf4ff;
   color: var(--blue);
-  font-size: 8px;
+  font-size: 11px;
   letter-spacing: 0.04em;
-  font-weight: 600;
+  font-weight: 650;
   border-bottom: 1px solid #dfebff;
 }
 .flight-airline {
@@ -1717,7 +1718,7 @@ p {
   width: 31px;
   height: 31px;
   font-weight: 700;
-  font-size: 10px;
+  font-size: 13px;
 }
 .flight-airline > span:nth-child(2) {
   display: flex;
@@ -1725,17 +1726,17 @@ p {
   gap: 5px;
 }
 .flight-airline b {
-  font-size: 10px;
+  font-size: 13px;
 }
 .flight-airline small {
   color: var(--muted);
-  font-size: 8px;
+  font-size: 11px;
 }
 .flight-baggage {
   display: flex;
   align-items: center;
   gap: 5px;
-  font-size: 8px;
+  font-size: 11px;
   color: #758398;
   margin-left: auto;
 }
@@ -1753,11 +1754,11 @@ p {
 }
 .flight-time b {
   font-size: 26px;
-  font-weight: 600;
+  font-weight: 650;
   letter-spacing: -0.04em;
 }
 .flight-time small {
-  font-size: 9px;
+  font-size: 12px;
   color: var(--muted);
 }
 .flight-route {
@@ -1781,7 +1782,7 @@ p {
   flex: 1;
 }
 .flight-route small {
-  font-size: 8px;
+  font-size: 11px;
   color: var(--muted);
 }
 .flight-route small.direct {
@@ -1797,7 +1798,7 @@ p {
 }
 .flight-price > small {
   color: var(--muted);
-  font-size: 8px;
+  font-size: 11px;
 }
 .flight-price strong {
   font-size: 25px;
@@ -1805,7 +1806,7 @@ p {
   font-weight: 700;
 }
 .flight-price .btn {
-  font-size: 10px;
+  font-size: 13px;
   padding: 10px 14px;
   min-height: 38px;
   white-space: nowrap;
@@ -1821,7 +1822,7 @@ p {
   padding-top: 24px;
   margin-bottom: 28px;
   color: #7b889a;
-  font-size: 9px;
+  font-size: 12px;
 }
 .breadcrumbs > button {
   display: flex;
@@ -1831,7 +1832,7 @@ p {
   border: 0;
   padding: 8px 0;
   color: #566d8c;
-  font-size: 10px;
+  font-size: 13px;
 }
 .detail-title {
   display: flex;
@@ -1852,7 +1853,7 @@ p {
   display: flex;
   gap: 26px;
   align-items: center;
-  font-size: 10px;
+  font-size: 13px;
   color: var(--muted);
 }
 .detail-location > span {
@@ -1861,7 +1862,7 @@ p {
   gap: 6px;
 }
 .detail-location .rating > span {
-  font-size: 9px;
+  font-size: 12px;
   color: var(--muted);
 }
 .detail-gallery {
@@ -1897,7 +1898,7 @@ p {
   right: 20px;
   bottom: 20px;
   background: #fff;
-  font-size: 10px;
+  font-size: 13px;
   min-height: 38px;
   padding: 10px 15px;
 }
@@ -1932,11 +1933,11 @@ p {
   gap: 7px;
 }
 .detail-facts b {
-  font-size: 10px;
-  font-weight: 600;
+  font-size: 13px;
+  font-weight: 650;
 }
 .detail-facts small {
-  font-size: 8px;
+  font-size: 11px;
   color: var(--muted);
 }
 .detail-section {
@@ -1953,7 +1954,7 @@ p {
   color: var(--blue);
 }
 .detail-section p {
-  font-size: 12px;
+  font-size: 15px;
   line-height: 1.9;
 }
 .itinerary details {
@@ -1980,14 +1981,14 @@ summary::-webkit-details-marker {
   place-items: center;
   background: var(--pale);
   color: var(--blue);
-  font-size: 9px;
+  font-size: 12px;
   font-weight: 700;
   border-radius: 6px;
   flex-shrink: 0;
 }
 .itinerary summary b {
-  font-size: 11px;
-  font-weight: 600;
+  font-size: 14px;
+  font-weight: 650;
   flex: 1;
 }
 .itinerary summary svg {
@@ -2003,7 +2004,7 @@ summary::-webkit-details-marker {
 .itinerary details p {
   margin: 0;
   padding: 0 21px 19px 58px;
-  font-size: 11px;
+  font-size: 14px;
   background: #f9fbff;
 }
 .inclusions {
@@ -2012,15 +2013,15 @@ summary::-webkit-details-marker {
   gap: 25px;
 }
 .inclusions h3 {
-  font-size: 11px;
-  font-weight: 600;
+  font-size: 14px;
+  font-weight: 650;
   margin-bottom: 22px;
 }
 .inclusions > div > span {
   display: flex;
   gap: 8px;
   align-items: center;
-  font-size: 10px;
+  font-size: 13px;
   color: var(--muted);
   margin-bottom: 15px;
 }
@@ -2041,12 +2042,12 @@ summary::-webkit-details-marker {
   color: var(--blue);
 }
 .cancellation-note h3 {
-  font-size: 12px;
-  font-weight: 600;
+  font-size: 15px;
+  font-weight: 650;
   margin-bottom: 8px;
 }
 .cancellation-note p {
-  font-size: 10px;
+  font-size: 13px;
   margin: 0;
 }
 .booking-panel {
@@ -2059,7 +2060,7 @@ summary::-webkit-details-marker {
   box-shadow: 0 14px 35px #0b376e0b;
 }
 .panel-kicker {
-  font-size: 7px;
+  font-size: 11px;
   font-weight: 700;
   letter-spacing: 0.1em;
   color: var(--blue);
@@ -2076,18 +2077,18 @@ summary::-webkit-details-marker {
   letter-spacing: -0.06em;
 }
 .detail-price > span {
-  font-size: 10px;
+  font-size: 13px;
   color: var(--muted);
 }
 .booking-panel .cancellation {
-  font-size: 8px;
+  font-size: 11px;
   margin-bottom: 24px;
 }
 .booking-panel label,
 .stack-form label {
   display: block;
-  font-size: 10px;
-  font-weight: 600;
+  font-size: 13px;
+  font-weight: 650;
   margin-bottom: 17px;
 }
 .booking-panel input,
@@ -2098,7 +2099,7 @@ summary::-webkit-details-marker {
   border-radius: 7px;
   padding: 12px;
   margin-top: 8px;
-  font-size: 12px;
+  font-size: 15px;
   background: #fff;
   color: var(--ink);
   color-scheme: light;
@@ -2110,13 +2111,13 @@ summary::-webkit-details-marker {
   grid-template-columns: 1fr auto;
   gap: 13px;
   border-block: 1px solid var(--line);
-  font-size: 10px;
+  font-size: 13px;
   color: var(--muted);
 }
 .price-breakdown b {
   color: var(--ink);
-  font-size: 10px;
-  font-weight: 500;
+  font-size: 13px;
+  font-weight: 600;
 }
 .total-row {
   display: flex;
@@ -2126,7 +2127,7 @@ summary::-webkit-details-marker {
   padding-block: 21px;
 }
 .total-row > span {
-  font-size: 11px;
+  font-size: 14px;
   color: var(--muted);
 }
 .total-row > b {
@@ -2136,7 +2137,7 @@ summary::-webkit-details-marker {
   letter-spacing: -0.04em;
 }
 .panel-reassurance {
-  font-size: 8px;
+  font-size: 11px;
   text-align: center;
   display: flex;
   align-items: center;
@@ -2199,12 +2200,12 @@ summary::-webkit-details-marker {
   gap: 9px;
 }
 .account-stats small {
-  font-size: 10px;
+  font-size: 13px;
   color: var(--muted);
 }
 .account-stats b {
   font-size: 25px;
-  font-weight: 600;
+  font-weight: 650;
   line-height: 1;
   color: var(--blue);
 }
@@ -2245,13 +2246,13 @@ summary::-webkit-details-marker {
   border: 0;
   border-radius: 6px;
   padding: 9px 10px;
-  font-size: 9px;
+  font-size: 12px;
   color: var(--muted);
 }
 .account-tabs button.active {
   color: var(--blue);
   background: var(--pale);
-  font-weight: 600;
+  font-weight: 650;
 }
 .booking-row {
   display: grid;
@@ -2271,17 +2272,17 @@ summary::-webkit-details-marker {
   border-radius: 9px;
 }
 .booking-row h3 {
-  font-size: 12px;
-  font-weight: 600;
+  font-size: 15px;
+  font-weight: 650;
   line-height: 1.6;
   margin: 9px 0 6px;
 }
 .booking-row p {
-  font-size: 8px;
+  font-size: 11px;
   margin: 0 0 4px;
 }
 .booking-row small {
-  font-size: 7px;
+  font-size: 11px;
   color: var(--muted);
 }
 .status {
@@ -2292,8 +2293,8 @@ summary::-webkit-details-marker {
   border-radius: 4px;
   background: #ecf7f0;
   color: #32724d;
-  font-size: 8px;
-  font-weight: 600;
+  font-size: 11px;
+  font-weight: 650;
 }
 .status > i {
   width: 4px;
@@ -2316,7 +2317,7 @@ summary::-webkit-details-marker {
   color: var(--blue);
 }
 .booking-row-action .text-button {
-  font-size: 8px;
+  font-size: 11px;
   white-space: nowrap;
   gap: 6px;
 }
@@ -2336,15 +2337,15 @@ summary::-webkit-details-marker {
   margin-bottom: 20px;
 }
 .profile-panel .eyebrow {
-  font-size: 6px;
+  font-size: 11px;
 }
 .profile-panel h3 {
   margin: 10px 0 6px;
-  font-size: 17px;
-  font-weight: 600;
+  font-size: 19px;
+  font-weight: 650;
 }
 .profile-panel > p {
-  font-size: 10px;
+  font-size: 13px;
   overflow-wrap: anywhere;
   margin-bottom: 24px;
 }
@@ -2357,7 +2358,7 @@ summary::-webkit-details-marker {
   border: 0;
   border-top: 1px solid var(--line);
   padding: 15px 0;
-  font-size: 10px;
+  font-size: 13px;
 }
 .profile-panel > button:hover {
   color: var(--blue);
@@ -2373,7 +2374,7 @@ summary::-webkit-details-marker {
   color: var(--blue);
 }
 .profile-note p {
-  font-size: 8px;
+  font-size: 11px;
   margin: 0;
 }
 .account-gate {
@@ -2401,12 +2402,12 @@ summary::-webkit-details-marker {
 .account-gate p {
   max-width: 450px;
   margin: 0 auto 28px;
-  font-size: 12px;
+  font-size: 15px;
 }
 .account-gate > small {
   display: block;
   margin-top: 20px;
-  font-size: 10px;
+  font-size: 13px;
   color: var(--muted);
 }
 .wishlist {
@@ -2458,10 +2459,10 @@ summary::-webkit-details-marker {
   color: var(--ink);
 }
 .modal > p {
-  font-size: 12px;
+  font-size: 15px;
 }
 .modal .modal-note {
-  font-size: 9px;
+  font-size: 12px;
   text-align: center;
   color: #6e7d92;
   margin: 14px 0 0;
@@ -2471,7 +2472,7 @@ summary::-webkit-details-marker {
   margin-top: 24px;
 }
 .stack-form input {
-  font-size: 13px;
+  font-size: 16px;
   min-height: 47px;
 }
 .stack-form .btn {
@@ -2485,7 +2486,7 @@ summary::-webkit-details-marker {
   border-radius: 9px;
   background: var(--pale);
   padding: 15px;
-  font-size: 11px;
+  font-size: 14px;
   color: #546d8b;
   line-height: 1.8;
   display: flex;
@@ -2497,18 +2498,18 @@ summary::-webkit-details-marker {
 }
 .demo-notice b {
   display: block;
-  font-size: 10px;
+  font-size: 13px;
   margin-bottom: 5px;
 }
 .demo-notice small {
   display: block;
-  font-size: 9px;
+  font-size: 12px;
 }
 .checkout-progress {
   display: flex;
   align-items: center;
   gap: 13px;
-  font-size: 8px;
+  font-size: 11px;
   margin-bottom: 23px;
   color: #74869e;
 }
@@ -2523,7 +2524,7 @@ summary::-webkit-details-marker {
   background: var(--line);
 }
 .checkout-progress b {
-  font-weight: 600;
+  font-weight: 650;
   color: var(--blue);
 }
 .checkout-image {
@@ -2536,12 +2537,12 @@ summary::-webkit-details-marker {
 .checkout-title {
   font-size: 20px;
   letter-spacing: -0.04em;
-  font-weight: 600;
+  font-weight: 650;
   line-height: 1.4;
   margin: 11px 0 7px;
 }
 .checkout-subtitle {
-  font-size: 10px !important;
+  font-size: 13px !important;
 }
 .checkout-facts {
   display: grid;
@@ -2562,12 +2563,12 @@ summary::-webkit-details-marker {
   gap: 6px;
 }
 .checkout-facts small {
-  font-size: 9px;
+  font-size: 12px;
   color: var(--muted);
 }
 .checkout-facts b {
-  font-size: 11px;
-  font-weight: 600;
+  font-size: 14px;
+  font-weight: 650;
   color: var(--ink);
 }
 .checkout-included {
@@ -2585,11 +2586,11 @@ summary::-webkit-details-marker {
   gap: 5px;
 }
 .checkout-included b {
-  font-size: 9px;
-  font-weight: 600;
+  font-size: 12px;
+  font-weight: 650;
 }
 .checkout-included small {
-  font-size: 8px;
+  font-size: 11px;
   color: var(--muted);
   line-height: 1.7;
 }
@@ -2619,23 +2620,23 @@ summary::-webkit-details-marker {
   line-height: 1.45;
   letter-spacing: -0.035em;
   margin: 13px 0 8px;
-  font-weight: 600;
+  font-weight: 650;
 }
 .confirmation-card p {
-  font-size: 10px;
+  font-size: 13px;
 }
 .confirmation-card > div {
   display: flex;
   justify-content: space-between;
   gap: 15px;
-  font-size: 10px;
+  font-size: 13px;
   margin-top: 17px;
 }
 .confirmation-card > div > span {
   color: var(--muted);
 }
 .confirmation-card > div > b {
-  font-weight: 600;
+  font-weight: 650;
   text-align: right;
 }
 .confirmation-download {
@@ -2644,7 +2645,7 @@ summary::-webkit-details-marker {
 .cancel-booking {
   margin: 20px auto 0;
   display: flex;
-  font-size: 10px;
+  font-size: 13px;
 }
 .danger {
   color: #b42c3b;
@@ -2656,10 +2657,10 @@ summary::-webkit-details-marker {
   margin-top: 20px;
 }
 .cancel-question > b {
-  font-size: 12px;
+  font-size: 15px;
 }
 .cancel-question p {
-  font-size: 10px;
+  font-size: 13px;
   margin: 9px 0 16px;
 }
 .cancel-question > div {
@@ -2668,7 +2669,7 @@ summary::-webkit-details-marker {
 }
 .cancel-question .btn {
   padding: 10px 15px;
-  font-size: 10px;
+  font-size: 13px;
   flex: 1;
 }
 .faq-list details {
@@ -2681,26 +2682,26 @@ summary::-webkit-details-marker {
   gap: 15px;
   align-items: center;
   padding-block: 19px;
-  font-size: 12px;
-  font-weight: 600;
+  font-size: 15px;
+  font-weight: 650;
   cursor: pointer;
 }
 .faq-list details[open] summary svg {
   transform: rotate(90deg);
 }
 .faq-list p {
-  font-size: 11px;
+  font-size: 14px;
   margin-bottom: 20px;
 }
 .terms-content h3,
 .contact-content h3 {
-  font-size: 14px;
-  font-weight: 600;
+  font-size: 16px;
+  font-weight: 650;
   margin-bottom: 12px;
 }
 .terms-content p,
 .contact-content p {
-  font-size: 11px;
+  font-size: 14px;
   margin-bottom: 24px;
 }
 .contact-content > .gate-icon {
@@ -2781,7 +2782,7 @@ summary::-webkit-details-marker {
   box-shadow: 0 8px 40px #09285033;
   padding: 14px 17px;
   border-radius: 11px;
-  font-size: 11px;
+  font-size: 14px;
   pointer-events: auto;
   animation: fade-in 0.2s ease-out;
 }
@@ -2864,10 +2865,10 @@ summary::-webkit-details-marker {
     padding: 18px;
   }
   .tour-body h3 {
-    font-size: 15px;
+    font-size: 17px;
   }
   .cancellation {
-    font-size: 7px;
+    font-size: 11px;
   }
   .trust-strip {
     gap: 22px;
@@ -2893,7 +2894,7 @@ summary::-webkit-details-marker {
     padding-inline: 18px;
   }
   .flight-price .btn {
-    font-size: 9px;
+    font-size: 12px;
     padding-inline: 10px;
   }
   .detail-layout {
@@ -2951,14 +2952,14 @@ summary::-webkit-details-marker {
     gap: 20px;
   }
   .main-nav button {
-    font-size: 10px;
+    font-size: 13px;
   }
   .wishlist-button {
     display: none;
   }
   .sign-in {
     padding: 9px 13px;
-    font-size: 10px;
+    font-size: 13px;
   }
   .hero {
     min-height: 565px;
@@ -2978,10 +2979,10 @@ summary::-webkit-details-marker {
     display: none;
   }
   .destination-note small {
-    font-size: 5px;
+    font-size: 11px;
   }
   .destination-note b {
-    font-size: 10px;
+    font-size: 13px;
   }
   .search-promise {
     display: none;
@@ -3006,11 +3007,11 @@ summary::-webkit-details-marker {
     padding: 15px;
   }
   .tour-body h3 {
-    font-size: 13px;
-    min-height: 40px;
+    font-size: 16px;
+    min-height: 48px;
   }
   .tour-body .cancellation {
-    font-size: 6px;
+    font-size: 11px;
     gap: 3px;
   }
   .tour-bottom strong {
@@ -3020,7 +3021,7 @@ summary::-webkit-details-marker {
     gap: 3px;
   }
   .tour-bottom small {
-    font-size: 7px;
+    font-size: 11px;
   }
   .circle-arrow {
     width: 31px;
@@ -3033,7 +3034,7 @@ summary::-webkit-details-marker {
     font-size: 33px;
   }
   .section-heading p {
-    font-size: 10px;
+    font-size: 13px;
     max-width: 400px;
   }
   .section-aside {
@@ -3089,13 +3090,13 @@ summary::-webkit-details-marker {
     padding: 0 20px 23px;
   }
   .pass-bottom b {
-    font-size: 7px;
+    font-size: 11px;
   }
   .pass-stub {
     padding-inline: 20px;
   }
   .pass-stub > span:first-child {
-    font-size: 5px;
+    font-size: 11px;
   }
   .benefits {
     grid-template-columns: repeat(2, 1fr);
@@ -3108,7 +3109,7 @@ summary::-webkit-details-marker {
     font-size: 27px;
   }
   .footer-top .eyebrow {
-    font-size: 7px;
+    font-size: 11px;
   }
   .newsletter {
     width: 290px;
@@ -3159,13 +3160,13 @@ summary::-webkit-details-marker {
     min-height: 48px;
   }
   .results .cancellation {
-    font-size: 8px;
+    font-size: 11px;
   }
   .results .tour-bottom strong {
     font-size: 25px;
   }
   .results .tour-bottom small {
-    font-size: 9px;
+    font-size: 12px;
   }
   .detail-gallery {
     height: 330px;
@@ -3196,10 +3197,10 @@ summary::-webkit-details-marker {
     gap: 9px;
   }
   .detail-facts b {
-    font-size: 8px;
+    font-size: 11px;
   }
   .detail-facts small {
-    font-size: 7px;
+    font-size: 11px;
   }
   .detail-facts svg {
     width: 19px;
@@ -3209,7 +3210,7 @@ summary::-webkit-details-marker {
     gap: 9px;
   }
   .itinerary summary b {
-    font-size: 10px;
+    font-size: 13px;
   }
   .account-layout {
     grid-template-columns: minmax(0, 1fr) 220px;
@@ -3223,10 +3224,10 @@ summary::-webkit-details-marker {
     padding: 19px;
   }
   .account-stats small {
-    font-size: 8px;
+    font-size: 11px;
   }
   .account-stats b.demo-stat {
-    font-size: 13px;
+    font-size: 16px;
   }
   .profile-panel {
     padding: 20px;
@@ -3262,7 +3263,7 @@ summary::-webkit-details-marker {
   }
   .announcement .demo-tag {
     display: flex;
-    font-size: 7px;
+    font-size: 11px;
     letter-spacing: 0.14em;
   }
   .site-header {
@@ -3283,7 +3284,7 @@ summary::-webkit-details-marker {
     height: 34px;
   }
   .brand small {
-    font-size: 5.3px;
+    font-size: 11px;
     margin-top: 5px;
   }
   .header-actions {
@@ -3292,7 +3293,7 @@ summary::-webkit-details-marker {
   .sign-in {
     min-height: 36px;
     padding: 8px 11px;
-    font-size: 9px;
+    font-size: 12px;
     gap: 6px;
     max-width: 120px;
   }
@@ -3325,7 +3326,7 @@ summary::-webkit-details-marker {
   .main-nav button {
     min-height: 46px;
     text-align: left;
-    font-size: 12px;
+    font-size: 15px;
     padding-inline: 12px;
     border-radius: 6px;
   }
@@ -3351,7 +3352,7 @@ summary::-webkit-details-marker {
     padding-bottom: 85px;
   }
   .hero .eyebrow {
-    font-size: 7px;
+    font-size: 11px;
     letter-spacing: 0.12em;
   }
   .hero h1 {
@@ -3364,12 +3365,12 @@ summary::-webkit-details-marker {
     font-size: 1.12em;
   }
   .hero p {
-    font-size: 11px;
+    font-size: 14px;
     line-height: 1.9;
     margin-bottom: 10px;
   }
   .hero-link {
-    font-size: 9px;
+    font-size: 12px;
     gap: 14px;
   }
   .hero-proof {
@@ -3379,13 +3380,13 @@ summary::-webkit-details-marker {
   .mini-avatars i {
     width: 26px;
     height: 26px;
-    font-size: 10px;
+    font-size: 13px;
   }
   .stars {
-    font-size: 9px;
+    font-size: 12px;
   }
   .hero-proof small {
-    font-size: 7px;
+    font-size: 11px;
   }
   .destination-note {
     display: none;
@@ -3410,7 +3411,7 @@ summary::-webkit-details-marker {
     flex: 1;
     justify-content: center;
     padding: 10px;
-    font-size: 10px;
+    font-size: 13px;
     gap: 7px;
   }
   .search-fields,
@@ -3429,16 +3430,16 @@ summary::-webkit-details-marker {
   .search-field input,
   .search-field input[type="date"] {
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 600;
     letter-spacing: -0.045em;
     min-height: 24px;
   }
   .search-field input::placeholder {
-    font-size: 12px;
+    font-size: 15px;
     letter-spacing: -0.02em;
   }
   .search-field input[type="date"] {
-    font-size: 13px;
+    font-size: 16px;
     letter-spacing: -0.025em;
   }
   .search-field input[type="date"]::-webkit-calendar-picker-indicator {
@@ -3448,25 +3449,25 @@ summary::-webkit-details-marker {
     grid-column: 1 / -1;
   }
   .field-label {
-    font-size: 8px;
+    font-size: 11px;
     margin-bottom: 5px;
   }
   .guest-trigger {
-    font-size: 12px;
+    font-size: 15px;
     min-height: 24px;
   }
   .search-submit,
   .flight-fields .search-submit {
     grid-column: 1 / -1;
     min-height: 46px;
-    font-size: 12px;
+    font-size: 15px;
   }
   .flight-fields .guest-field {
     grid-column: 1 / -1;
   }
   .flight-fields .guest-sub {
     display: inline;
-    font-size: 9px;
+    font-size: 12px;
     margin-left: 7px;
   }
   .popover {
@@ -3478,10 +3479,10 @@ summary::-webkit-details-marker {
     padding-block: 10px;
   }
   .place-option b {
-    font-size: 12px;
+    font-size: 15px;
   }
   .place-option small {
-    font-size: 9px;
+    font-size: 12px;
   }
   .place-option {
     min-height: 52px;
@@ -3501,7 +3502,7 @@ summary::-webkit-details-marker {
     justify-content: space-between;
   }
   .trust-strip > span {
-    font-size: 6.5px;
+    font-size: 11px;
     gap: 5px;
   }
   .trust-strip > span > svg {
@@ -3521,7 +3522,7 @@ summary::-webkit-details-marker {
     margin-bottom: 23px;
   }
   .eyebrow {
-    font-size: 7px;
+    font-size: 11px;
     letter-spacing: 0.12em;
   }
   .section-heading h2 {
@@ -3530,11 +3531,11 @@ summary::-webkit-details-marker {
     line-height: 1.2;
   }
   .section-heading p {
-    font-size: 10px;
+    font-size: 13px;
     line-height: 1.8;
   }
   .section-heading > .text-button {
-    font-size: 10px;
+    font-size: 13px;
     gap: 8px;
   }
   .tour-grid.three,
@@ -3553,22 +3554,22 @@ summary::-webkit-details-marker {
   .tour-body h3,
   .results .tour-body h3 {
     min-height: 0;
-    font-size: 17px;
+    font-size: 19px;
     margin: 13px 0 12px;
   }
   .tour-meta {
-    font-size: 9px;
+    font-size: 12px;
   }
   .tour-body .cancellation,
   .results .cancellation {
-    font-size: 8px;
+    font-size: 11px;
     margin-bottom: 20px;
   }
   .tour-bottom strong {
     font-size: 26px;
   }
   .tour-bottom small {
-    font-size: 9px;
+    font-size: 12px;
   }
   .tour-bottom > span {
     gap: 5px;
@@ -3605,17 +3606,17 @@ summary::-webkit-details-marker {
     font-size: 29px;
   }
   .destination-copy > small {
-    font-size: 6px;
+    font-size: 11px;
   }
   .destination-copy > span {
-    font-size: 7px;
+    font-size: 11px;
     line-height: 1.6;
   }
   .destination-top {
     top: 18px;
     left: 16px;
     right: 16px;
-    font-size: 8px;
+    font-size: 11px;
   }
   .destination-top svg {
     width: 18px;
@@ -3631,12 +3632,12 @@ summary::-webkit-details-marker {
     font-size: 37px;
   }
   .flight-promo p {
-    font-size: 10px;
+    font-size: 13px;
     line-height: 1.9;
   }
   .flight-promo .btn {
     min-height: 43px;
-    font-size: 10px;
+    font-size: 13px;
   }
   .boarding-pass {
     width: min(100%, 335px);
@@ -3656,13 +3657,13 @@ summary::-webkit-details-marker {
     padding: 0 23px 23px;
   }
   .pass-bottom b {
-    font-size: 8px;
+    font-size: 11px;
   }
   .pass-stub {
     padding: 17px 23px;
   }
   .pass-stub > span:first-child {
-    font-size: 6px;
+    font-size: 11px;
   }
   .benefits {
     gap: 27px 23px;
@@ -3677,12 +3678,12 @@ summary::-webkit-details-marker {
     width: 21px;
   }
   .benefits h3 {
-    font-size: 11px;
+    font-size: 14px;
     line-height: 1.5;
     margin-bottom: 9px;
   }
   .benefits p {
-    font-size: 9px;
+    font-size: 12px;
   }
   .footer-top {
     padding-block: 35px 45px;
@@ -3694,10 +3695,10 @@ summary::-webkit-details-marker {
     font-size: 29px;
   }
   .footer-top .eyebrow {
-    font-size: 6px;
+    font-size: 11px;
   }
   .footer-top p {
-    font-size: 9px;
+    font-size: 12px;
   }
   .newsletter {
     width: 100%;
@@ -3706,7 +3707,7 @@ summary::-webkit-details-marker {
     font-size: 16px;
   }
   .newsletter input::placeholder {
-    font-size: 11px;
+    font-size: 14px;
   }
   .footer-main {
     padding-block: 34px;
@@ -3722,33 +3723,33 @@ summary::-webkit-details-marker {
   }
   .footer-brand p {
     margin: 0;
-    font-size: 9px;
+    font-size: 12px;
     justify-self: end;
   }
   .footer-demo {
     grid-column: 1 / -1;
-    font-size: 7px;
+    font-size: 11px;
     margin-top: 3px;
   }
   .footer-main h3 {
-    font-size: 10px;
+    font-size: 13px;
     margin-bottom: 13px;
   }
   .footer-main > div > button:not(.logo-button) {
-    font-size: 10px;
+    font-size: 13px;
     min-height: 35px;
   }
   .footer-bottom {
     padding-block: 20px 24px;
     gap: 15px;
     flex-wrap: wrap;
-    font-size: 7px;
+    font-size: 11px;
   }
   .footer-bottom > span:last-child {
     display: none;
   }
   .footer-bottom button {
-    font-size: 7px;
+    font-size: 11px;
     min-height: 30px;
   }
   .mobile-nav {
@@ -3779,7 +3780,7 @@ summary::-webkit-details-marker {
     position: relative;
   }
   .mobile-nav > button > span {
-    font-size: 8px;
+    font-size: 11px;
   }
   .mobile-nav > button.active {
     color: var(--blue);
@@ -3810,7 +3811,7 @@ summary::-webkit-details-marker {
     display: block;
   }
   .browse-hero p {
-    font-size: 10px;
+    font-size: 13px;
     line-height: 1.8;
     margin-bottom: 22px;
   }
@@ -3826,7 +3827,7 @@ summary::-webkit-details-marker {
   }
   .mobile-filter {
     padding: 9px 15px;
-    font-size: 10px;
+    font-size: 13px;
     margin-bottom: 21px;
   }
   .filters.filters-open {
@@ -3839,10 +3840,10 @@ summary::-webkit-details-marker {
   }
   .filter-group > b,
   .filter-group > label:not(.check-label) {
-    font-size: 12px;
+    font-size: 15px;
   }
   .check-label {
-    font-size: 12px;
+    font-size: 15px;
     min-height: 28px;
   }
   .check-label input {
@@ -3860,7 +3861,7 @@ summary::-webkit-details-marker {
     margin-bottom: 8px;
   }
   .results-heading p {
-    font-size: 8px;
+    font-size: 11px;
     line-height: 1.7;
   }
   .sort-label {
@@ -3873,11 +3874,11 @@ summary::-webkit-details-marker {
     min-height: 42px;
   }
   .sort-label > span {
-    font-size: 9px;
+    font-size: 12px;
   }
   .flight-notice {
     padding: 13px;
-    font-size: 8px;
+    font-size: 11px;
     align-items: start;
     line-height: 1.9;
   }
@@ -3886,10 +3887,10 @@ summary::-webkit-details-marker {
     gap: 9px;
   }
   .flight-airline b {
-    font-size: 10px;
+    font-size: 13px;
   }
   .flight-baggage {
-    font-size: 6px;
+    font-size: 11px;
     gap: 3px;
   }
   .flight-baggage > svg {
@@ -3904,7 +3905,7 @@ summary::-webkit-details-marker {
     font-size: 25px;
   }
   .flight-time small {
-    font-size: 9px;
+    font-size: 12px;
   }
   .flight-card-main > .flight-time:nth-child(3) {
     text-align: right;
@@ -3921,7 +3922,7 @@ summary::-webkit-details-marker {
     align-items: center;
   }
   .flight-price > small {
-    font-size: 8px;
+    font-size: 11px;
   }
   .flight-price strong {
     grid-row: 2;
@@ -3932,7 +3933,7 @@ summary::-webkit-details-marker {
     grid-column: 2;
     min-height: 43px;
     padding-inline: 17px;
-    font-size: 11px;
+    font-size: 14px;
   }
   .flight-recommend {
     padding-inline: 17px;
@@ -3942,7 +3943,7 @@ summary::-webkit-details-marker {
     margin-bottom: 18px;
   }
   .breadcrumbs > span {
-    font-size: 7px;
+    font-size: 11px;
   }
   .detail-title {
     gap: 12px;
@@ -3963,7 +3964,7 @@ summary::-webkit-details-marker {
     border: 0;
     padding: 4px 0 4px 7px;
     min-height: 28px;
-    font-size: 8px;
+    font-size: 11px;
     gap: 4px;
   }
   .detail-title > .btn > svg {
@@ -3971,13 +3972,13 @@ summary::-webkit-details-marker {
   }
   .detail-location {
     gap: 10px;
-    font-size: 9px;
+    font-size: 12px;
     flex-direction: column;
     align-items: start;
   }
   .detail-location .rating,
   .detail-location .rating > span {
-    font-size: 8px;
+    font-size: 11px;
   }
   .detail-gallery {
     height: 310px;
@@ -3993,7 +3994,7 @@ summary::-webkit-details-marker {
   .gallery-all {
     right: 10px;
     bottom: 10px;
-    font-size: 8px;
+    font-size: 11px;
     min-height: 33px;
     padding: 8px 10px;
   }
@@ -4011,10 +4012,10 @@ summary::-webkit-details-marker {
     gap: 23px 18px;
   }
   .detail-facts b {
-    font-size: 10px;
+    font-size: 13px;
   }
   .detail-facts small {
-    font-size: 8px;
+    font-size: 11px;
   }
   .detail-facts > div {
     gap: 12px;
@@ -4030,30 +4031,30 @@ summary::-webkit-details-marker {
     margin-bottom: 18px;
   }
   .detail-section p {
-    font-size: 11px;
+    font-size: 14px;
   }
   .itinerary summary {
     gap: 12px;
     padding: 13px;
   }
   .itinerary summary b {
-    font-size: 10px;
+    font-size: 13px;
     line-height: 1.7;
   }
   .itinerary details p {
     padding-left: 54px;
-    font-size: 10px;
+    font-size: 13px;
   }
   .inclusions {
     grid-template-columns: 1fr 1fr;
     gap: 20px;
   }
   .inclusions h3 {
-    font-size: 10px;
+    font-size: 13px;
     line-height: 1.6;
   }
   .inclusions > div > span {
-    font-size: 8px;
+    font-size: 11px;
     align-items: start;
     line-height: 1.7;
     gap: 6px;
@@ -4063,10 +4064,10 @@ summary::-webkit-details-marker {
     margin-top: 2px;
   }
   .cancellation-note h3 {
-    font-size: 11px;
+    font-size: 14px;
   }
   .cancellation-note p {
-    font-size: 9px;
+    font-size: 12px;
   }
   .booking-panel {
     position: static;
@@ -4075,7 +4076,7 @@ summary::-webkit-details-marker {
     scroll-margin-block: 95px;
   }
   .booking-panel label {
-    font-size: 11px;
+    font-size: 14px;
   }
   .booking-panel input,
   .booking-panel select {
@@ -4083,10 +4084,10 @@ summary::-webkit-details-marker {
     min-height: 49px;
   }
   .booking-panel .cancellation {
-    font-size: 9px;
+    font-size: 12px;
   }
   .panel-reassurance {
-    font-size: 8px;
+    font-size: 11px;
   }
   .mobile-reserve {
     display: flex;
@@ -4103,7 +4104,7 @@ summary::-webkit-details-marker {
     box-shadow: 0 -7px 25px #133b6a0c;
   }
   .mobile-reserve > span {
-    font-size: 9px;
+    font-size: 12px;
     color: var(--muted);
   }
   .mobile-reserve b {
@@ -4126,7 +4127,7 @@ summary::-webkit-details-marker {
     line-height: 1.2;
   }
   .account .section-heading > .btn {
-    font-size: 9px;
+    font-size: 12px;
     min-height: 36px;
     padding: 8px 12px;
   }
@@ -4144,7 +4145,7 @@ summary::-webkit-details-marker {
     display: none;
   }
   .account-stats small {
-    font-size: 7px;
+    font-size: 11px;
     line-height: 1.6;
   }
   .account-stats b {
@@ -4177,7 +4178,7 @@ summary::-webkit-details-marker {
   }
   .account-tabs button {
     padding: 8px;
-    font-size: 8px;
+    font-size: 11px;
   }
   .booking-row {
     grid-template-columns: 76px minmax(0, 1fr);
@@ -4185,14 +4186,14 @@ summary::-webkit-details-marker {
     gap: 12px;
   }
   .booking-row h3 {
-    font-size: 12px;
+    font-size: 15px;
     margin-top: 8px;
   }
   .booking-row p {
-    font-size: 8px;
+    font-size: 11px;
   }
   .booking-row small {
-    font-size: 7px;
+    font-size: 11px;
   }
   .booking-row-action {
     gap: 10px;
@@ -4201,7 +4202,7 @@ summary::-webkit-details-marker {
     font-size: 20px;
   }
   .booking-row-action .text-button {
-    font-size: 9px;
+    font-size: 12px;
   }
   .profile-panel {
     padding: 24px;
@@ -4212,11 +4213,11 @@ summary::-webkit-details-marker {
     font-size: 26px;
   }
   .profile-panel > button {
-    font-size: 11px;
+    font-size: 14px;
     padding-block: 17px;
   }
   .profile-note p {
-    font-size: 9px;
+    font-size: 12px;
   }
   .account-gate {
     padding-block: 55px 65px;
@@ -4225,10 +4226,10 @@ summary::-webkit-details-marker {
     font-size: 36px;
   }
   .account-gate p {
-    font-size: 11px;
+    font-size: 14px;
   }
   .account-gate > .btn {
-    font-size: 11px;
+    font-size: 14px;
   }
   .empty-state {
     padding: 35px 18px;
@@ -4237,7 +4238,7 @@ summary::-webkit-details-marker {
     font-size: 18px;
   }
   .empty-state p {
-    font-size: 10px;
+    font-size: 13px;
   }
   .modal-backdrop {
     padding: 12px;
@@ -4255,13 +4256,13 @@ summary::-webkit-details-marker {
     font-size: 23px;
   }
   .modal > p {
-    font-size: 11px;
+    font-size: 14px;
   }
   .stack-form input {
     font-size: 16px;
   }
   .stack-form label {
-    font-size: 11px;
+    font-size: 14px;
   }
   .checkout-image {
     height: 125px;
@@ -4273,20 +4274,20 @@ summary::-webkit-details-marker {
     gap: 12px;
   }
   .checkout-facts b {
-    font-size: 10px;
+    font-size: 13px;
   }
   .checkout-facts small {
-    font-size: 8px;
+    font-size: 11px;
   }
   .checkout-included b {
-    font-size: 8px;
+    font-size: 11px;
     line-height: 1.7;
   }
   .checkout-included small {
-    font-size: 7px;
+    font-size: 11px;
   }
   .total-row > span {
-    font-size: 10px;
+    font-size: 13px;
   }
   .total-row > b {
     font-size: 26px;
@@ -4298,13 +4299,13 @@ summary::-webkit-details-marker {
     font-size: 19px;
   }
   .confirmation-card > div {
-    font-size: 9px;
+    font-size: 12px;
   }
   .cancel-question > div {
     gap: 7px;
   }
   .cancel-question .btn {
-    font-size: 9px;
+    font-size: 12px;
     padding-inline: 10px;
   }
   .modal-wide {
@@ -4332,7 +4333,7 @@ summary::-webkit-details-marker {
   .toast {
     padding: 12px;
     gap: 9px;
-    font-size: 10px;
+    font-size: 13px;
     line-height: 1.7;
   }
 }
@@ -4496,5 +4497,161 @@ summary::-webkit-details-marker {
   }
   .main-nav button {
     color: #e0ebff;
+  }
+}
+
+/* Readable typography: keep descriptions comfortable and labels clearly visible. */
+p {
+  font-weight: 500;
+}
+.tour-body h3 {
+  font-size: 18px;
+}
+.search-field input,
+.guest-trigger {
+  font-weight: 650;
+}
+.search-field {
+  min-height: 72px;
+}
+.field-label {
+  line-height: 1.4;
+}
+.search-fields {
+  grid-template-columns: 1.65fr 1.2fr 1fr auto;
+}
+.guest-sub {
+  display: none;
+}
+.hero-proof small {
+  line-height: 1.5;
+}
+.tour-meta,
+.tour-body .cancellation {
+  line-height: 1.6;
+}
+.tour-body h3 {
+  min-height: 54px;
+}
+.pass-bottom {
+  gap: 16px;
+}
+.pass-stub {
+  gap: 12px;
+}
+.barcode {
+  flex-shrink: 0;
+}
+.flight-airline > span:nth-child(2) {
+  min-width: 0;
+}
+.flight-baggage {
+  text-align: right;
+}
+.sort-label {
+  flex-wrap: wrap;
+}
+@media (max-width: 850px) {
+  .search-fields {
+    grid-template-columns: 1.6fr 1.2fr 1fr;
+  }
+  .tour-grid.three {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .tour-grid.three > .tour-card:last-child {
+    grid-column: 1 / -1;
+    max-width: calc(50% - 8px);
+  }
+  .tour-body h3,
+  .results .tour-body h3 {
+    font-size: 18px;
+    min-height: 54px;
+  }
+}
+@media (max-width: 600px) {
+  .hero h1 {
+    font-size: clamp(35px, 10.6vw, 57px);
+  }
+  .hero-proof small {
+    max-width: 205px;
+  }
+  .search-fields,
+  .search-fields.flight-fields {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  }
+  .search-field {
+    min-height: 76px;
+  }
+  .search-field input[type="date"] {
+    font-size: 16px;
+    min-height: 26px;
+  }
+  .search-field input[type="date"]::-webkit-calendar-picker-indicator {
+    width: 11px;
+    margin-left: 0;
+    padding: 0;
+  }
+  .search-field > svg {
+    width: 16px;
+  }
+  .trust-strip {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  .tour-grid.three {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .tour-grid.three > .tour-card:last-child {
+    grid-column: auto;
+    max-width: none;
+  }
+  .tour-body h3,
+  .results .tour-body h3 {
+    font-size: 19px;
+    min-height: 0;
+  }
+  .flight-baggage {
+    max-width: 100px;
+    line-height: 1.5;
+  }
+  .flight-card-main {
+    column-gap: 10px;
+  }
+  .flight-price .btn {
+    font-size: 14px;
+  }
+  .mobile-reserve > span {
+    display: flex;
+    align-items: baseline;
+    gap: 4px;
+    flex-wrap: wrap;
+  }
+  .mobile-reserve {
+    gap: 10px;
+  }
+  .mobile-reserve .btn {
+    padding-inline: 16px;
+  }
+  .account-stats > div,
+  .account-stats > button {
+    padding-inline: 12px;
+    gap: 10px;
+  }
+  .account-stats > div > span,
+  .account-stats > button > span {
+    min-width: 0;
+  }
+  .profile-note p {
+    line-height: 1.7;
+  }
+}
+
+@media (max-width: 380px) {
+  .search-fields,
+  .search-fields.flight-fields {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .search-fields > * {
+    grid-column: 1 / -1;
   }
 }
